@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="info-container">
+            <h1 class="titulo">
+                Jogo da Memória
+            </h1>
+            <form>
+                <label for="range">Nº de colunas:</label>
+                <input class="range" type="range" min="2" max="8" step="2" id="range" list="tickmarks" required="true" value="4" onChange="rangeSlide()">
+                <datalist id="tickmarks">
+                    <option value="2" label="2"></option>
+                    <option value="4" label="4"></option>
+                    <option value="6" label="6"></option>
+                    <option value="8" label="8"></option>
+                </datalist>
+            </form>
+
+            <form>
+                <label for="range-imagens"> Tipo de imagem:</label>
+                <input class="range" type="range" min="1" max="3" step="1" id="range-imagens" list="tipoImagens" required="true" value="2" onChange="rangeSlide()">
+                <datalist id="tipoImagens">
+                    <option value="Times" label="Times"></option>
+                    <option value="Programação" label="Programação"></option>
+                    <option value="Programação" label="Carros"></option>
+                </datalist>
+            </form>
+
+            <div class="info-colunasImagens">
+                <h2>Colunas: <span id="rangeValue">0</span></h2>
+                <h2>Imagens: <span id="totalImagens">0</span></2>
+            </div>
+
+            <button class="botao iniciar"> Iniciar</button>
+            <button class="botao resetar"> Reiniciar</button>
+            <button class="botao mostrar"> Mostrar</button>
+        </div>
+
+        <div id="tabuleiro">
+
+        </div>
+
+        <div class="placar">
+            <h2 class="titulo">
+                Placar
+            </h2>
+            <div class="pontos">
+                <span></span>
+                <span class="span-ponto">Pontos</span>
+            </div>
+
+            <div class="tempo ">
+                <span class="cronometro"></span>
+                <span class="span-tempo">Tempo</span>
+            </div>
+            <div class="container-tentativas">
+                <span class="tentativas"></span>
+                <span class="span-tentativas">Tentativas</span>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
