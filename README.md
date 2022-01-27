@@ -7,7 +7,7 @@
 </h1>
 
 # Jogo da Memória
-Nesse projeto, o desafio foi criar um jogo da memória utilizando apenas HTML, CSS e Javascript, trabalhando com efeitos 3D no CSS e lógica de programação utilizando condicionais, Immediately Invoked Function Expression e manipulação de Array em um projeto super divertido. Jogo da memoria desenvolvido em JavaScript puro, desenvolvido para aprendizagem, com muita versatilidade, sendo possível alterar quantidade de cartas e tipos de imagens.
+Nesse projeto, o desafio foi criar um jogo da memória utilizando apenas HTML, CSS e Javascript, trabalhando com efeitos 3D no CSS e lógica de programação utilizando condicionais, Immediately Invoked Function Expression e manipulação de Array em um projeto super divertido, com muita versatilidade, sendo possível alterar quantidade de cartas e a tematica das imagens. Projeto desenvovido para Aprendizado e aprimoramento de javascript em manipulação do DOM.
 
 
 <h2 id="tecnologias">
