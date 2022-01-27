@@ -75,6 +75,7 @@
     position: relative;
     padding: 0 100px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden;
@@ -82,6 +83,12 @@
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        background: #000;
+    }
 }
 
 
