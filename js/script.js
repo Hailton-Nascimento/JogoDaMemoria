@@ -96,8 +96,8 @@ const mostrarImagens = (n) => {
 
     setImgns(n).forEach((img) => {
         cartaHtml += `<div class="memory-card" data-card="${img}">
-                 <img class="back-face" src="img/${tipoImagem}/back-face.svg">
-                <img class="front-face" src="img/${tipoImagem}/${img}"/>
+                 <img class="front-face" src="img/${tipoImagem}/${img}"/>
+                <img class="back-face" src="img/${tipoImagem}/back-face.svg">
             </div>`;
     });
 

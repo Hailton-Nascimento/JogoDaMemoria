@@ -270,6 +270,7 @@ input {
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d;
+    perspective: 500px;
     transition: all 0.5s linear;
     cursor: pointer;
 }
@@ -277,6 +278,7 @@ input {
 .memory-card .back-face {
     opacity: 1;
     background-color: #61a155;
+    backface-visibility: hidden;
 }
 
 .memory-card:active {
